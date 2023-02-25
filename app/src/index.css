@@ -1,0 +1,79 @@
+body {
+	height: 100vh;
+	background-color: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Muli", sans-serif;
+}
+
+.contract,
+.existing-contracts {
+	wdith: 100%;
+	min-width: 300px;
+	margin: 20px;
+	display: inline-block;
+	padding: 40px;
+	border: 1px solid #666;
+	background-color: #222;
+	border-radius: 10px;
+}
+
+h1 {
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	color: #eee;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	color: #eee;
+	margin: 20px;
+}
+
+input[type="text"] {
+	padding: 6px;
+	font-size: 18px;
+}
+
+.button {
+	background-color: #f58427;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 20px;
+	padding: 9px 25px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.existing-contract ul {
+	padding: 10px;
+	margin: 20px;
+	background-color: #eee;
+}
+
+.existing-contract ul > li {
+	list-style: none;
+	display: flex;
+	margin: 10px;
+}
+
+.existing-contract ul > li > div {
+	margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+	font-weight: bold;
+}
+
+.existing-contract .complete {
+	color: #5aa75a;
+	text-align: center;
+}
